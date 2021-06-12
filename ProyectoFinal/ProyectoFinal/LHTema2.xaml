@@ -1,0 +1,86 @@
+﻿<Page x:Class="ProyectoFinal.LHTema2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ProyectoFinal"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LHTema2">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFD2EEFF"/>
+                <GradientStop Color="#FFB7E5FF" Offset="0.941"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Margin="10,10,0,0" Source="Borralo.png" Stretch="Fill" HorizontalAlignment="Left" Width="70" Height="71" VerticalAlignment="Top"/>
+        <Button x:Name="letras" Content="TEORÍA" Margin="225,182,226,0" VerticalAlignment="Top" Height="44" Click="teoria_Click" FontSize="22" FontFamily="Source Sans Pro" BorderBrush="#FF91AAFF" Foreground="Black" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="-9"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-12.1164"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC8E2FF"/>
+                    <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="letras_Copy1" Content="PUNTUACION" Margin="225,338,226,0" VerticalAlignment="Top" Height="44" Click="puntuacion_Click" FontSize="22" FontFamily="Source Sans Pro" BorderBrush="#FF91AAFF" Foreground="Black" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="-9"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-12.1164"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC8E2FF"/>
+                    <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="letras_Copy2" Content="EJERCICIOS" Margin="225,260,226,0" VerticalAlignment="Top" Height="44" Click="ejercicios_Click" FontSize="22" FontFamily="Source Sans Pro" BorderBrush="#FF91AAFF" Foreground="Black" RenderTransformOrigin="1,1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="-9"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-12.1164"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC8E2FF"/>
+                    <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="&#x9;    &#xA; REVOLUCIÓN LIBERAL EN EL REINADO DE ISABEL II" Margin="65,57,68,300" FontSize="27" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FFE51B23" TextOptions.TextFormattingMode="Display" HorizontalAlignment="Center" Width="667"/>
+        <Button x:Name="Siguiente" Content="SIGUIENTE" Margin="0,361,53,0" VerticalAlignment="Top" Height="43" Click="Siguiente_Click" FontSize="15" FontFamily="Source Sans Pro" HorizontalAlignment="Right" Width="76">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC8E2FF"/>
+                    <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Anterior" Content="ANTERIOR" HorizontalAlignment="Left" Margin="45,361,0,0" VerticalAlignment="Top" Width="76" Height="43" Click="Anterior_Click" FontSize="15" FontFamily="Source Sans Pro">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC8E2FF"/>
+                    <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="TEMA 2" Margin="0,30,342,365" FontSize="32" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FFE51B23" TextOptions.TextFormattingMode="Display" HorizontalAlignment="Right" Width="130"/>
+    </Grid>
+</Page>

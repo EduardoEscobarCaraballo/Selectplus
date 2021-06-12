@@ -1,0 +1,78 @@
+﻿<Window x:Class="ProyectoFinal.LLEjercicios3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoFinal"
+        mc:Ignorable="d"
+        Title="LLEjercicios3" Height="837.795" Width="1109.385">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                <GradientStop Color="#FFD2EEFF"/>
+                <GradientStop Color="#FFB7E5FF" Offset="0.941"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Margin="10,10,0,0" Source="Borralo.png" Stretch="Fill" HorizontalAlignment="Left" Width="70" Height="71" VerticalAlignment="Top"/>
+        <Label Content="TEMA 3" Margin="432,30,439,0" FontSize="32" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#FFE51B23" TextOptions.TextFormattingMode="Display" HorizontalAlignment="Center" Width="130" Height="58" VerticalAlignment="Top"/>
+        <Grid HorizontalAlignment="Left" Height="146" Margin="46,128,0,0" VerticalAlignment="Top" Width="722">
+            <Label Content="¿Quién escribió el poemario &quot;Huir del invierno&quot;?" Margin="10,10,10,0" FontSize="20" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="Black" TextOptions.TextFormattingMode="Display" Height="58" VerticalAlignment="Top"/>
+            <TextBox x:Name="contenido" HorizontalAlignment="Left" Height="37" Margin="32,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" FontSize="20"/>
+            <TextBlock x:Name="incorrecto" Visibility="Hidden" HorizontalAlignment="Left" Margin="32,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="Red" FontWeight="Bold" Width="598"><Run Text="INCORRECTO"/><Run Text=": "/><Run Text="Villena"/></TextBlock>
+            <TextBlock x:Name="correcto" Visibility="Hidden" HorizontalAlignment="Left" Margin="476,64,0,0" TextWrapping="Wrap" Text="Correcto!" VerticalAlignment="Top" FontSize="20" Foreground="#FF45D800" FontWeight="Bold"/>
+            <Button x:Name="Siguiente_Copy" Content="ENVIAR" Margin="287,66,0,0" VerticalAlignment="Top" Height="30" Click="p_Click" FontSize="15" FontFamily="Source Sans Pro" HorizontalAlignment="Left" Width="118">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC8E2FF"/>
+                        <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="146" Margin="46,280,0,0" VerticalAlignment="Top" Width="722">
+            <Label Content="¿En qué década sobresalió la poesía de Vázquez Montalbán?" Margin="10,10,10,0" FontSize="20" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="Black" TextOptions.TextFormattingMode="Display" Height="58" VerticalAlignment="Top"/>
+            <TextBox x:Name="contenido1" HorizontalAlignment="Left" Height="37" Margin="32,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" FontSize="20"/>
+            <TextBlock x:Name="incorrecto1" Visibility="Hidden" HorizontalAlignment="Left" Margin="32,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="Red" FontWeight="Bold" Width="598"><Run Text="INCORRECTO"/><Run Text=": "/><Run Text="Setenta"/></TextBlock>
+            <TextBlock x:Name="correcto1" Visibility="Hidden" HorizontalAlignment="Left" Margin="476,64,0,0" TextWrapping="Wrap" Text="Correcto!" VerticalAlignment="Top" FontSize="20" Foreground="#FF45D800" FontWeight="Bold"/>
+            <Button x:Name="Siguiente_Copy1" Content="ENVIAR" Margin="287,62,0,0" VerticalAlignment="Top" Height="30" Click="p1_Click" FontSize="15" FontFamily="Source Sans Pro" HorizontalAlignment="Left" Width="118">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC8E2FF"/>
+                        <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="146" Margin="46,436,0,0" VerticalAlignment="Top" Width="722">
+            <Label Content="¿Quién escribió &quot;La muerte en Beverly Hills&quot;?" Margin="10,10,10,0" FontSize="20" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="Black" TextOptions.TextFormattingMode="Display" Height="58" VerticalAlignment="Top"/>
+            <TextBox x:Name="contenido2" HorizontalAlignment="Left" Height="37" Margin="32,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" FontSize="20"/>
+            <TextBlock x:Name="incorrecto2" Visibility="Hidden" HorizontalAlignment="Left" Margin="32,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="Red" FontWeight="Bold" Width="598"><Run Text="INCORRECTO"/><Run Text=": "/><Run Text="Gimferrer"/></TextBlock>
+            <TextBlock x:Name="correcto2" Visibility="Hidden" HorizontalAlignment="Left" Margin="476,64,0,0" TextWrapping="Wrap" Text="Correcto!" VerticalAlignment="Top" FontSize="20" Foreground="#FF45D800" FontWeight="Bold"/>
+            <Button x:Name="Siguiente_Copy2" Content="ENVIAR" Margin="288,63,0,0" VerticalAlignment="Top" Height="30" Click="p2_Click" FontSize="15" FontFamily="Source Sans Pro" HorizontalAlignment="Left" Width="118">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC8E2FF"/>
+                        <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="146" Margin="46,590,0,0" VerticalAlignment="Top" Width="827">
+            <Label Content="¿En qué década sobresalió la poesía de García Montero?" Margin="10,10,10,0" FontSize="20" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="Black" TextOptions.TextFormattingMode="Display" Height="58" VerticalAlignment="Top"/>
+            <TextBox x:Name="contenido3" HorizontalAlignment="Left" Height="37" Margin="32,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="206" FontSize="20"/>
+            <TextBlock x:Name="incorrecto3" Visibility="Hidden" HorizontalAlignment="Left" Margin="32,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Foreground="Red" FontWeight="Bold" Width="598"><Run Text="INCORRECTO"/><Run Text=": "/><Run Text="Ochenta"/></TextBlock>
+            <TextBlock x:Name="correcto3" Visibility="Hidden" HorizontalAlignment="Left" Margin="476,64,0,0" TextWrapping="Wrap" Text="Correcto!" VerticalAlignment="Top" FontSize="20" Foreground="#FF45D800" FontWeight="Bold"/>
+            <Button x:Name="Siguiente_Copy3" Content="ENVIAR" Margin="288,64,0,0" VerticalAlignment="Top" Height="30" Click="p3_Click" FontSize="15" FontFamily="Source Sans Pro" HorizontalAlignment="Left" Width="118">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFC8E2FF"/>
+                        <GradientStop Color="#FFB0A8FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
